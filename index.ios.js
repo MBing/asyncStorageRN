@@ -51,7 +51,7 @@ export default class AsyncStorage extends Component {
       <View style={styles.container}>
         <View style={styles.form}>
           <TextInput
-            style={textField}
+            style={styles.textField}
             onChangeText={textInputMessage => this.setState({textInputMessage})}
             value={this.state.textInputMessage}
           />
